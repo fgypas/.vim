@@ -2,7 +2,6 @@
 " ############################################################################################
 filetype off
 set nocompatible
-#execute pathogen#infect()
 set encoding=utf-8
 filetype plugin indent on   " set the syntax indent
 filetype plugin on
