@@ -241,8 +241,8 @@ let g:rcsv_max_columns = 30
 " let g:templates_plugin_loaded = 1 " to skip loading of this plugin.
 " let g:templates_no_autocmd = 0 " to disable automatic insertion of template in new files.
 " let g:templates_debug = 1 " to have vim-template output debug information
-let g:email = "r.gumienny@unibas"
-let g:username = "Rafal Gumienny"
+let g:email = "foivos.gypas@unibas"
+let g:username = "Foivos Gypas"
 let g:license = "GPL"
 
 " UltiSnips
@@ -256,3 +256,7 @@ let g:UltiSnipsListSnippets = "<c-tab>"
 " snippets
 let g:ultisnips_python_style = "sphinx"
 
+nnoremap <UP> ddkP 
+nnoremap <DOWN> ddp
+vnoremap <DOWN> xp`[V`]
+vnoremap <UP> xkP`[V`]
